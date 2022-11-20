@@ -1,3 +1,12 @@
+/*
+Author: Anita Prova
+Course: CSCI-135
+Instructor: Genady Maryash
+Assignment: E7.18
+
+Creates triangle class with perimeter function
+*/
+
 #include <iostream>
 #include <cmath>
 
