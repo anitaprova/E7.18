@@ -33,7 +33,10 @@ double perimeter(Triangle t){
 }
 
 int main() {
-	Triangle tri = {{5,5}, {4,18}, {9,22}};
+	double x1, y1,x2, y2, x3, y3;
+	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
+
+	Triangle tri = {{x1,y1}, {x2,y2}, {x3,y3}};
 	cout << perimeter(tri) << endl;
 	
 	return 0;
